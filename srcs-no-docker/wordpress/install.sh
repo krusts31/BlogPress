@@ -1,24 +1,3 @@
-#!/bin/sh
-#####################################
-#--->		MARIDB		<---#
-#####################################
-MARIADB_HOST_NAME=0.0.0.0
-MARIADB_USER=user_mariadb
-MARIADB_USER_PASSWORD=user_mariadb_password
-#####################################
-#--->		WORDPRESS	<---#
-#####################################
-WORDPRESS_URL=olgrounds.dev
-WORDPRESS_TITLE=olgrounds
-WORDPRESS_DATABASE_NAME=wordpress
-WORDPRESS_ADMIN=wordpress_admin
-WORDPRESS_ADMIN_PASSWORD=wordpress_admin_password
-WORDPRESS_ADMIN_EMAIL=akrusts@olgrounds.dev
-WORDPRESS_USER_ROLE=author
-WORDPRESS_USER=user
-WORDPRESS_USER_EMAIL=user@gmail.com
-WORDPRESS_USER_PASSWORD=user_password
-
 set -ex
 NODE_VERSION=16.20.0
 

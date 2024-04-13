@@ -6,10 +6,7 @@
 #
 # Tested on CentOS 6, CentOS 7, Ubuntu 12.04 LTS (Precise Pangolin), Ubuntu
 # 14.04 LTS (Trusty Tahr).
-WORDPRESS_DATABASE_NAME=wordpress
-MARIADB_USER=user_mariadb
-MARIADB_USER_PASSWORD=user_mariadb_password
-MARIADB_ROOT_PASSWORD=rootPasswordThisIs
+
 apt install mariadb-server -y
 
 systemctl start mariadb
